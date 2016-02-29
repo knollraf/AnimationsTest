@@ -1,0 +1,101 @@
+.navbar-fixed-top {
+  z-index: -50;
+}
+.ontop{
+  z-index: 500;
+  height: 750px;
+}
+
+.jumbotron.text-center.ontop {
+  z-index: 50;
+  background-image: url("../img/bg.jpg");
+  position: relative;
+}
+
+.innologo1{
+  position: relative;
+  bottom: 10px;
+}
+
+.svg1{
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.svg2{
+  width: 100%;
+  height: auto;
+}
+
+.knollraf {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  text-align: center;
+
+}
+
+.raff {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: -500;
+}
+
+img.blau {
+  position: relative;
+  z-index: -30;
+  right: 446px;
+  bottom: 50px;
+  bottom: 242px;
+}
+
+.testraff > p {
+  color: black;
+}
+
+.jumbotron {
+  /*height: 700px;*/
+  background: #a0a0a0;
+  color: white;
+  padding-bottom: 80px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
+    .jumbotron .lang-logo img {
+      max-width: 100%; }
+
+    
+.container.container2 {
+  height: 900px;
+
+}
+
+img.neu {
+  position: fixed;
+  bottom: 100px;
+  right: 70px;
+  z-index: 1;
+}
